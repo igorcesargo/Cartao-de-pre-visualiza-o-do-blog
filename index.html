@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de pré-visualização do blog</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4d04e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 15px;
+            border: 2px solid #000;
+            box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.925);
+            width: 275px;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .category {
+            background-color: #f4d04e;            
+            color: black;
+            font-size: 16px;   
+            font-weight: bold; 
+            width: 80px;               
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;         
+            
+        }
+        h1, p, .avatar  {
+            text-align: left;
+        }
+        h1 {
+            color: #121212;
+            font-size: 22px;
+        }
+        p {
+            color: #6b6b6b;
+            font-size: 16px;
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 15px;  
+        }
+        .author > img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+
+        .author>h1 {
+            font-size: 16px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="images/illustration-article.svg" alt="Imagem do blog">
+        <p class="category">
+            Learning
+        </p>
+
+        <p>Published 21 Dec 2023</p>
+        <h1>HTML & CSS foundations</h1>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+        <div class="author">
+            <img src="images/image-avatar.webp" alt="Imagem do blog" class="avatar">
+            <h1 class="author-name"> Greg Hooper</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
